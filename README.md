@@ -1,9 +1,4 @@
 # -Ieast
-static int maxpara(int a, int b, int c) {
-		int max = a;
-		if (b>max)
-			max=b;
-		if (c>max)
-			max=c;
-		
-		return max;
+int least=a;
+if(b<least) least=b;
+if(c<least) least=c;
